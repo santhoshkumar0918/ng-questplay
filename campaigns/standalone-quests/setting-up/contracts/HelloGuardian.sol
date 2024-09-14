@@ -2,11 +2,8 @@
 pragma solidity ^0.8.19;
 
 contract HelloGuardian {
-
-    /// @return "Hello Guardian"
+    // Function to return a greeting message
     function hello() external pure returns (string memory) {
-        // UNCOMMENT THE NEXT LINE TO MAKE THE TEST PASS
-        // return "Hello Guardian";
+        return "Hello Guardian";
     }
-
 }
